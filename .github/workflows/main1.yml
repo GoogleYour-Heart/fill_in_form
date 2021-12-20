@@ -40,7 +40,7 @@ jobs:
         run: |
           python fill_guan.py
           
-      - name: Update guan meng meng
+      - name: Update shang di
         run: |
           python fill_shangdi.py          
       
