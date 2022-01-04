@@ -46,7 +46,7 @@ jobs:
       
       - name: Update hanyuxue
         run: |
-          python fill_han.py    
+          python fill_in_han.py    
       
       
       # Runs a set of commands using the runners shell
