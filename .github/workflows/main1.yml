@@ -43,6 +43,10 @@ jobs:
       - name: Update shang di
         run: |
           python fill_shangdi.py          
+          
+      - name: Update qinlin
+        run: |
+          python fill_qiulin.py     
       
       - name: Update hanyuxue
         run: |
