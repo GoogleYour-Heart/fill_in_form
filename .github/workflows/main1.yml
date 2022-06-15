@@ -36,29 +36,29 @@ jobs:
         run: |
           python fill_in_form.py
           
-      - name: Update guan meng meng
-        run: |
-          python fill_guan.py
+#       - name: Update guan meng meng
+#         run: |
+#           python fill_guan.py
           
       - name: Update shang di
         run: |
           python fill_shangdi.py          
           
-      - name: Update qinlin
-        run: |
-          python fill_qiulin.py     
+#       - name: Update qinlin
+#         run: |
+#           python fill_qiulin.py     
       
-      - name: Update hanyuxue
-        run: |
-          python fill_in_han.py
+#       - name: Update hanyuxue
+#         run: |
+#           python fill_in_han.py
           
-      - name: Update suiwenxiu
-        run: |
-          python fill_sui.py
+#       - name: Update suiwenxiu
+#         run: |
+#           python fill_sui.py
       
-      - name: Update renjianxun
-        run: |
-          python fill_ren.py   
+#       - name: Update renjianxun
+#         run: |
+#           python fill_ren.py   
       
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
