@@ -32,9 +32,9 @@ jobs:
         with:
           python-version: 3.7
         
-      - name: Update deric
-        run: |
-          python fill_in_form.py
+#       - name: Update deric
+#         run: |
+#           python fill_in_form.py
           
 #       - name: Update guan meng meng
 #         run: |
