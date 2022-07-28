@@ -8,7 +8,7 @@ resp=urllib.request.urlopen(req)
 data=resp.read().decode('utf-8')
 
 print(data)
-
+# demo
 
 # latitude = '35.50154'
 # longitude = '112.85352'
